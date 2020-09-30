@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>
+        Among us Task
+    </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <script src="app.js" ?></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Open+Sans+Condensed:wght@300&family=Patua+One&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="body">
+    <!--<img src="images/purple.PNG" id="purp">-->
+
+    <button id="dead"><input type="image" id="imgDead" src="images/hahDead.PNG" /></button>
+
+    <img src="images/overlap3.PNG" id="over">
+    <button id="task" onclick="document.getElementById('insideManual').style.display = 'block';"><input type="image"
+            id="imgPolus" src="images/itWorked.PNG" onclick="myFunc()"></button>
+
+    <div id="character" onkeydown='getKeyAndMove(event)'>
+        <img src="images/amongNoBg.png" id="among">
+
+        <img src="images/doUrTasks.png" id="among2">
+    </div>
+    <!--style="display:none;">-->
+
+    <div id="insideManual" style=display:none;>
+
+        <img src="images/didThisManually1.png" id="manual">
+
+        <div id="divInside1">
+            <button id="triangle_up"><input type="image" class="upCount" class="mover" id="triangle_up2"
+                    src="images/triangleUp.PNG"></button>
+            <!--style="display:none;">-->
+        </div>
+        <button id="triangle_down"><input type="image" class="downCount" class="mover" id="triangle_down2"
+                src="images/triangleDown.PNG"></button>
+        <!--style="display:none;">-->
+
+        <button id="x" onclick="document.getElementById('insideManual').style.display = 'none';"><input type="image"
+                id="x_1" src="images/xwithoutBG.png"></button>
+        <!--style="display:none;">-->
+
+        <h1 id="counter">270</h1>
+        <!--style="display:none;">-->
+
+        <h1 id="redInside">300</h1>
+        <!--style="display:none;">-->
+
+        <h1 id="finished"></h1>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+#body{
+background-image: url(images/background3.PNG);
+contain: layout;
+background-size: 2000px 990px;
+}
+
+
+#imgPolus{
+
+height:150px;
+width:200px;
+position:absolute;
+top:-30px; right:-50px;
+contain: layout;
+z-index: -4;
+
+}
+#task{
+    height: 1px;
+    width: 1px;
+    right:70px;
+    position:absolute;
+    left: 1030px;
+    bottom: 462px;
+    outline: none;
+    border-width: 1px;
+    border: purple ;
+    contain: layout;
+    z-index: -4;
+}
+#purp{
+    position:absolute;
+    top: 420px;
+    left: 510px;
+}
+
+#imgDead{
+    position:absolute;
+    top: -50px;
+    left: -30px;
+    height:100px;
+    width: 100px;
+    contain: layout;
+    z-index:-3;
+}
+#over{
+    height:450px;
+    width:650px;
+    right:359px;
+    bottom:210px;
+    position:absolute;
+    z-index: -5;
+}
+#manual{
+    height:800px;
+    width: 1600px;
+    position: absolute;
+    right: 100px;
+    z-index:-2;
+}
+#dead{
+    position:absolute;
+    top:400px;
+    left: 400px;
+    z-index:-3;
+}
+
+#divInside1{
+z-index:-1;
+}
+#triangle_up{
+    width: 0;
+	height: 0;
+    background-color:#71d49c;
+    position:absolute;
+    right:1214px;
+    top:330px;
+}
+#triangle_up2{
+    position:absolute;
+    right:-30px;
+    bottom:-20px;
+}
+#triangle_down{
+    width: 0;
+	height: 0;
+    background-color:#71d49c;
+    position:absolute;
+    right:1199px;
+    top:635px;
+}
+#triangle_down2{
+    position:absolute;
+    right:-30px;
+    bottom:-20px;
+}
+#x{
+    width: 0;
+	height: 0;
+    background-color:#71d49c;
+    position:absolute;
+    right:1620px;
+    top:100px;
+}
+
+
+#x_1{
+    position:absolute;
+    right:-100px;
+    bottom:-100px;
+    width:190px;
+
+}
+#counter{
+color:white;
+position:absolute;
+left: 555px;
+top:355px;
+font-size: 72px;
+font-family: 'Press Start 2P', cursive;
+}
+#redInside{
+    color:#e09d9f;
+position:absolute;
+left: 1095px;
+top:325px;
+font-size: 90px;
+font-family: 'Nanum Gothic', sans-serif;
+ 
+}
+
+#among{
+    position:absolute;
+right:950px;
+top:500px;
+z-index:-3;
+}
+
+#among2{
+    position:absolute;
+right:940px;
+top:450px;
+z-index:-3;
+}
