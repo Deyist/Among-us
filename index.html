@@ -5,7 +5,7 @@
         Among us Task
     </title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-
+    
     <script src="app.js" ?></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -16,8 +16,16 @@
 
 <body id="body">
     <!--<img src="images/purple.PNG" id="purp">-->
+    <audio id="finishedTask"><source src="audio/finishedTask.mp3" type="audio/mp3"></audio>
+        <h1 id ="report">Uh, Why aren't you reporting him..?</h1>
+        <h1 id ="report2">You are now a rainbow baby :D!!</h1>
+        <h1 id ="report3">Done to you by your alter ego!!</h1>
+        <img src="images/amongUs2nobg.png" id="among3">
 
-    <button id="dead"><input type="image" id="imgDead" src="images/hahDead.PNG" /></button>
+        <img src="images/noTaskForUnobg.png" id="among4">
+
+        <img src="images/rainbowBaby.gif" id="among5">
+    <button id="dead"><input type="image" id="imgDead" src="images/hahDead.PNG" /><audio id="secret"><source src="audio/secret.mp3" type="audio/mp3"></button>
 
     <img src="images/overlap3.PNG" id="over">
     <button id="task" onclick="document.getElementById('insideManual').style.display = 'block';"><input type="image"
@@ -27,6 +35,15 @@
         <img src="images/amongNoBg.png" id="among">
 
         <img src="images/doUrTasks.png" id="among2">
+        <h1 id="finished"></h1>
+        <h1 id="finished2"></h1>
+        
+        <img src="images/win.PNG" id="winImg" >
+        <button id="retry" ><input type="image"
+            id="retryImg" src="images/retry.PNG"  onclick="location.reload();" ></button>
+            <button id="quit" ><input type="image"
+                id="quitImg" src="images/quit.PNG" onclick="window.close();"></button>
+                <audio id="winNoise"><source src="audio/winNoise.mp3" type="audio/mp3"> </audio>
     </div>
     <!--style="display:none;">-->
 
@@ -36,24 +53,25 @@
 
         <div id="divInside1">
             <button id="triangle_up"><input type="image" class="upCount" class="mover" id="triangle_up2"
-                    src="images/triangleUp.PNG"></button>
+                    src="images/triangleUp.PNG"><audio id="boop"><source src="audio/buttonclick2.mp3" type="audio/mp3"> </audio></button>
             <!--style="display:none;">-->
-        </div>
+       
         <button id="triangle_down"><input type="image" class="downCount" class="mover" id="triangle_down2"
-                src="images/triangleDown.PNG"></button>
+                src="images/triangleDown.PNG"><audio id="boop2"><source src="audio/buttonclick2.mp3" type="audio/mp3"></button>
         <!--style="display:none;">-->
 
         <button id="x" onclick="document.getElementById('insideManual').style.display = 'none';"><input type="image"
                 id="x_1" src="images/xwithoutBG.png"></button>
+        </div>
         <!--style="display:none;">-->
 
-        <h1 id="counter">270</h1>
+        <h1 id="counter">260</h1>
         <!--style="display:none;">-->
 
-        <h1 id="redInside">300</h1>
+        <h1 id="redInside">300°</h1>
         <!--style="display:none;">-->
 
-        <h1 id="finished"></h1>
+        
     </div>
 
 </body>
